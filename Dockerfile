@@ -1,7 +1,7 @@
 FROM tomee
 
 # Required for starting application up.
-RUN apk update && apk add /bin/sh
+RUN apk update
 
 
 RUN mkdir -p /opt/app
