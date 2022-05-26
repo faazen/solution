@@ -2,7 +2,6 @@ FROM tomee
 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
-RUN openjdk:8-alpine
 
 
 RUN mkdir -p /opt/app
